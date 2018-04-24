@@ -1,7 +1,7 @@
 # Webpack-CLC
 Webpack Component level Compilation(CLC) project is to perform a compoent level task running. It does ts to js conversion,less to css conversion,compoent level template rendering etc at component level.
 
-What it does?
+**What it does?**
 Compile ts to js file
 Compile less to css file
 Creates html file out a compoent ejs file
@@ -18,29 +18,22 @@ build	=> /js/<componentname>.js
 	=> /images
 	=> /html/<componentname>.html
 
-How to run this project
+**How to run this project**
 
-Clone the project into your project directory
-
+-Clone the project into your project directory
 git clone https://github.com/naveed547/Webpack-CLC.git
 Pointing to your project directory run npm install
 
-
-To compile all components run the following command
-
+-To compile all components run the following command
 npm run start => build without js compression or
 npm run start:prod => build with js compression
 
-
-To compile specific component without js compression
-
+-To compile specific component without js compression
 npm run build -- --env.component="aboutus" --- It compiles or recompiles only aboutus component
 npm run build -- --env.component="aboutus,faq" --- It compiles or recompiles only aboutus and faq component
 
-
-To compile specific component with js compression
-
+-To compile specific component with js compression
 npm run start -- --env.component="aboutus" --- It compiles or recompiles only aboutus component
 npm run start -- --env.component="aboutus,faq" --- It compiles or recompiles only aboutus and faq component
 
-or you can directly run webpack --env.component='aboutus'
+-or you can directly run webpack --env.component='aboutus'
