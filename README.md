@@ -6,7 +6,7 @@ Compile ts to js file
 Compile less to css file  
 Creates html file out a component ejs file  
 
-All it does at coponent level. For ex:
+All it does at component level. For ex:
 
 Suppose we have multiple compponents as such  
 components => /<componentname> => index.js/index.less/index.html
@@ -37,3 +37,5 @@ Pointing to your project directory run **npm install**
 **npm run start -- --env.component="aboutus,faq"** --- It compiles or recompiles only aboutus and faq component  
 
 -or you can directly run webpack --env.component='aboutus'
+
+Using the wepack configuration we can compile all the components or we can compile the specific components.
