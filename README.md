@@ -1,39 +1,39 @@
 # Webpack-CLC
 Webpack Component level Compilation(CLC) project is to perform a compoent level task running. It does ts to js conversion,less to css conversion,compoent level template rendering etc at component level.
 
-**What it does?**
-Compile ts to js file
-Compile less to css file
-Creates html file out a compoent ejs file
+**What it does?**<br/><br/>
+Compile ts to js file<br/>
+Compile less to css file<br/>
+Creates html file out a compoent ejs file<br/>
 
 All it does at coponent level. For ex:
 
-Suppose we have multiple compponents as such
+Suppose we have multiple compponents as such<br/>
 components => /<componentname> => index.js/index.less/index.html
 
 It will create a different extension files files under respective collection folder with file name as component name
 
-build	=> /js/<componentname>.js
-	=> /css/<componentname>.css
-	=> /images
-	=> /html/<componentname>.html
+build	=> /js/<componentname>.js<br/>
+	=> /css/<componentname>.css<br/>
+	=> /images<br/>
+	=> /html/<componentname>.html<br/>
 
-**How to run this project**
+**How to run this project**<br/>
 
--Clone the project into your project directory
-git clone https://github.com/naveed547/Webpack-CLC.git
-Pointing to your project directory run npm install
+-Clone the project into your project directory<br/>
+git clone https://github.com/naveed547/Webpack-CLC.git<br/>
+Pointing to your project directory run npm install<br/>
 
--To compile all components run the following command
-npm run start => build without js compression or
-npm run start:prod => build with js compression
+-To compile all components run the following command<br/>
+npm run start => build without js compression or<br/>
+npm run start:prod => build with js compression<br/>
 
--To compile specific component without js compression
-npm run build -- --env.component="aboutus" --- It compiles or recompiles only aboutus component
-npm run build -- --env.component="aboutus,faq" --- It compiles or recompiles only aboutus and faq component
+-To compile specific component without js compression<br/>
+npm run build -- --env.component="aboutus" --- It compiles or recompiles only aboutus component<br/>
+npm run build -- --env.component="aboutus,faq" --- It compiles or recompiles only aboutus and faq component<br/>
 
--To compile specific component with js compression
-npm run start -- --env.component="aboutus" --- It compiles or recompiles only aboutus component
-npm run start -- --env.component="aboutus,faq" --- It compiles or recompiles only aboutus and faq component
+-To compile specific component with js compression<br/>
+npm run start -- --env.component="aboutus" --- It compiles or recompiles only aboutus component<br/>
+npm run start -- --env.component="aboutus,faq" --- It compiles or recompiles only aboutus and faq component<br/>
 
 -or you can directly run webpack --env.component='aboutus'
