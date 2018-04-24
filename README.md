@@ -2,7 +2,7 @@
 Webpack Component level Compilation(CLC) project is to perform a compoent level task running. It does ts to js conversion,less to css conversion,compoent level template rendering etc at component level.
 
 **What it does**  
-Compile ts to js file
+Compile ts to js file  
 Compile less to css file  
 Creates html file out a component ejs file  
 
