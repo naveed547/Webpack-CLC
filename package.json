@@ -1,12 +1,12 @@
 {
   "name": "myWebpacker",
   "version": "1.0.0",
-  "description": "\"Learning\"",
+  "description": "\"Webpack Component Level Compilation and output directory files customisation\"",
   "main": "global.js",
   "dependencies": {
     "webpack": "^3.8.1"
   },
-  "devDependencies": {
+  "dependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.26.1",
@@ -31,9 +31,8 @@
   },
   "scripts": {
     "start": "webpack -p",
-    "run-start": "webpack --config webpack-production.config.js",
     "build": "webpack"
   },
-  "author": "",
+  "author": "Naveed Ahmed",
   "license": "ISC"
 }

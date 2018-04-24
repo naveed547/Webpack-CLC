@@ -5,3 +5,6 @@ node_modules/
 
 ####### Webpack Outputh Directory ########
 build/
+
+#### NPM Debug Log #####
+npm*.log
